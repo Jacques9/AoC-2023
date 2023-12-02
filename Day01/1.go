@@ -9,7 +9,7 @@ import (
 )
 
 func read() (*bufio.Scanner, *os.File) {
-	readFile, err := os.Open("/home/norby/Coding/AoC 2023/Day01/1.txt")
+	readFile, err := os.Open("Day01/1.txt")
 
 	if err != nil {
 		fmt.Print(err)
