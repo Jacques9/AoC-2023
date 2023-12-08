@@ -40,7 +40,7 @@ func compute(a, b int) int {
 	count := 0
 	n := a
 	for i := 1; i <= a; i++ {
-		if (n - (n - i)) * (n - i) > b {
+		if i * (n - i) > b {
 			count++
 		}
 	}
